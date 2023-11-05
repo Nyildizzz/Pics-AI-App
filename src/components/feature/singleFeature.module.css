@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+    
+}
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #489BEF , #0DC9C8);
+    fill: #fff;
+}
+
+.iconContainer svg{
+    width: 50px;
+    height: 50px;
+
+}
+.iconContainer:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    
+}
+.title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(149 156 177);
+    margin-bottom: 20px;
+    line-height:29px;
+    text-align: left;
+    margin-left: 35px;
+}

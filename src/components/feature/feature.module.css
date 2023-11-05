@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAFAFF;
+    
+}
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.headerContainer h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.headerContainer p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    line-height:29px;
+
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+

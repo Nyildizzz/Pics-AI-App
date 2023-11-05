@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 1px 10px #0B88E9;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeInDown 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logoName {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link:hover {
+     background: linear-gradient(to right, #0DC9C8, #0CB0D4);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    transition: all 0.3s ease;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.btnSignIn,
+.btnSignUp {
+    padding: 8px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    
+}
+
+.btnSignIn {
+    color: #111;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.btnSignIn:hover {
+    color: grey;
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.btnSignUp {
+    color: #fff;
+    background: linear-gradient(to right, #489BEF , #0DC9C8);
+    border: 1px solid transparent;
+}
+
+.btnSignUp:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: hsl(0, 5%, 89%);
+    border: 0.1px solid transparent;
+    transform: scale(1.1);
+}

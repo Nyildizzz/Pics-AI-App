@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    
+    
+}
+.header{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title {
+    font-size: 5.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-50px);
+    background: linear-gradient(to right, #348EF3, hwb(206 19% 13% / 0.671),#49C1CF,#4DCCC9 );
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: fadeInUp 0.8s forwards 1s, gradientAnimation 4s linear infinite;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.desc{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    color: #666666;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeInUp 1s forwards 1s;
+    
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btnTrial{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: flex;
+    margin-right: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #489BEF , #0DC9C8);
+    border: 1px solid transparent; 
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.btnTrial:hover{
+    background-color: #0064DA;
+    transform: scale(1.1);
+}
+.btnMore{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #CECFD7;
+    border: 1px solid #CECFD7;
+    color: #333333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+.btnMore:hover{
+   background-color: #BEBFC7;
+    transform: scale(1.1);
+    
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeInUp 1.2s forwards 1s;
+    
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+

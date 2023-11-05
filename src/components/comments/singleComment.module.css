@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    
+}
+
+.commentsContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 20px;
+}
+.singleComment {
+    display: flex;
+    flex: 1 1 1 100%;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #FAFAFF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.singleComment:hover{
+    border: 2px solid #FBB040;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 0.4s ease-in-out;
+
+}
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.starContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.userImage {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.userName {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.userTitle {
+    font-size: 15px;
+    margin: 0.5rem 0;
+    color: #959cb1;
+}
+
+.comment {
+    margin-bottom: 30px;
+    
+}
+.userText{
+    color: #959cb1;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.starSvg {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    fill: #FBB040;
+}

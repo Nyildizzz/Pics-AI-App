@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    margin-top: 20px;
+    background-color: #FAFAFF;
+  }
+  .textContainer {
+    flex: 2;
+    padding: 20px;
+  }
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #959cb1;
+    line-height:29px;
+    text-align: justify;
+}
+.imageContainer {
+    flex: 2;
+    padding: 20px;
+  }
+.imageContainer img {
+    width: 100%; 
+    max-width: 500px;
+    height: auto;
+  }
+.textItem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
