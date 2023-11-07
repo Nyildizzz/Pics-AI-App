@@ -4,6 +4,7 @@ import Feature from '@/components/feature/Feature'
 import AboutOneSection from '@/components/about/AboutSectionOne'
 import AboutSectionTwo from '@/components/about/AboutSectionTwo'
 import Comments from "@/components/comments/Comments"
+import Pricing from '@/components/pricing/Pricing'
 export default function Home() {
   return (
     <main className={styles.content}>
@@ -11,8 +12,8 @@ export default function Home() {
       <Feature />
       <AboutOneSection />
       <AboutSectionTwo />
-      <Comments />
-      
+      <Comments /> 
+      <Pricing />     
       
     </main>
   )
