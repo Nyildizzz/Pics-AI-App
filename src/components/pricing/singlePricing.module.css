@@ -7,18 +7,40 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
+        
 }
 .singlePricing{
-    width: calc(33.33% - 30px);
+    width:calc(33.33% - 30px);
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 5px;
     background-color: #fff;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
     text-align: center;
     
+}
+.textPricingContainer{
+    margin-bottom: 30px;
+}
 
+.textPricingContainer h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.textPricingContainer p{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;  
+    padding: 0;
+}
+.textDesc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    
 }
 .title{
     font-size: 20px;
@@ -40,13 +62,18 @@
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #f44336;
+    background: linear-gradient(to right, #489BEF , #0DC9C8);
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.3s;
+    border: 1px solid transparent;
+    transition: all ease 0.3s;;       
+    
+}
+.buyBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 .iconsContainer{
     margin-bottom: 15px;
@@ -56,14 +83,29 @@
     display: inline-block;
     margin: 0 5px;
     font-size: 20px;
-    color: #f44336;
     transition: 0.3s;
 }
 .icon:hover{
     color: #000;
 }
 .iconText{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #959cb1;    
+}
+.checkIcon{
+    background-color: #ECF0FE;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.crossIcon{
+
 }
 
 
