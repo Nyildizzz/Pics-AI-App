@@ -1,5 +1,8 @@
+"use client"
+
 import React from "react";
 import style from "./singlePricing.module.css";
+import  { useState } from "react";
 
 const checkIcon = (
   <svg
@@ -18,6 +21,8 @@ const checkIcon = (
     <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z" />
   </svg>
 );
+
+
 
 const crossIcon = (
   <svg
@@ -85,13 +90,19 @@ const pricingData = [
   },
 ];
 
+ 
+
+
 function SinglePricing() {
+ const [option, setOption] = useState(false);
+ const options =  option ? 'year' : 'mo';
+
   return (
     <div className={style.container}>
       {pricingData.map((item) => (
         <div className={style.singlePricing} key={item.id}>
           <div className={style.textPricingContainer}>
-            <p className={style.price}>${item.price}</p>
+            <p className={style.price}>${item.price}/{options}</p>
             <h1 className={style.title}>{item.title}</h1>
           </div>
           <div className={style.textDesc}>
