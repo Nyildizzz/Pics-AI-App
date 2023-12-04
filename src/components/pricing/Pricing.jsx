@@ -16,13 +16,13 @@ function Pricing() {
       <div className={style.header}>
         <h1 className={style.title}>Simple and Affordable Pricing</h1>
         <p className={style.desc}>
-        There are many variations of passages of Lorem Ipsum available but the
+        There are many variations of passages of Lorem Ipsum available but the<br />
         majority have suffered alteration in some form.
         </p>
       </div>
       <div className={style.toggle}>
-        <Switch defaultChecked onChange={onChange} />
-        <p className={style.toggleText}>Monthly</p>
+      <p className={style.toggleText}>Monthly</p>
+        <Switch className={style.toggleBtn} defaultChecked onChange={onChange} />
         <p className={style.toggleText}>Yearly</p>
       </div>
       <div className={style.singlePricingContainer}>

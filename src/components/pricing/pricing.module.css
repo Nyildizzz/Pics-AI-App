@@ -1,4 +1,51 @@
 .container{
     background-color: #FAFAFF;
+    padding: 50px 0;    
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 25px;
+}
+.desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #959cb1;
+    margin-bottom: 50px;
+    line-height: 1.8;
     
 }
+.toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 725px;
+    margin-right: 750px;
+    margin-bottom: 50px;
+}
+.toggleText{
+    font-size: 16px;
+    font-weight: 600;
+    color :#33ABE1;
+    margin-right: 20px;
+    
+}
+.toggleBtn{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
