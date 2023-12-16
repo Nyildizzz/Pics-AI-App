@@ -1,0 +1,233 @@
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.contactContainer{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 200px;
+    background-color: #FAFAFF;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #959CB1;
+    margin-bottom: 20px;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    height: 300px;
+    width: 200px;
+    background-color: #FAFAFF;
+    margin-top: 20px;
+    margin-right: 600px;
+    border-radius: 10px;
+}
+
+.namePart label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d2144;
+    margin-bottom: 20px;
+    display: flex;
+}
+.namePart input{
+    height: 40px;
+    width: 350px;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+}
+.namePart input:focus{
+    outline: none;
+}
+.namePart input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #959CB1;
+    margin-bottom: 20px;
+}
+.emailPart label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d2144;
+    margin-bottom: 20px;
+    display: flex;
+}
+.emailPart input{
+    height: 40px;
+    width: 350px;
+    padding: 25px;
+    background-color: #FFFFFF;;
+    border: 1px solid transparent;
+}
+.emailPart input:focus{
+    outline: none;
+}
+.emailPart input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #959CB1;
+    margin-bottom: 20px;
+}
+.subsContainer{
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 200px;
+    background-color: #FAFAFF;
+    margin-top: 150px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.messagePart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+    background-color: #FAFAFF;
+    margin-top: 20px;
+    margin-right: 600px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.messagePart label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d2144;
+    margin-bottom: 20px;
+    display: flex;
+    margin-right: 100px;
+}
+.messagePart textarea::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #959CB1;
+    
+}
+.messagePart textarea{
+    height: 150px;
+    width: 700px;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    margin-left: 500px;
+}
+.messagePart textarea:focus{
+    outline: none;
+}
+.submitMessageBtn{
+    height: 50px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(to right, #489BEF , #0DC9C8);
+    position: relative;
+    right: 300px;
+    bottom: 30px; 
+    transition: all 0.3s ease-in-out;
+}
+.submitMessageBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btnDiv{
+}
+
+.subsContainer{
+    flex:2;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+.titleForSubs{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.subtitleForSubs{
+    font-size: 18px;
+    font-weight: 400;
+    color: #959CB1;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px;
+}
+.emailPartForSubs{
+    display: flex;
+    gap: 20px;
+}
+.emailPartForSubs input{
+    height: 40px;
+    width: 350px;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+}
+.emailPartForSubs input:focus{
+    outline: none;
+}
+.subscribeBtn{
+    height: 50px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(to right, #489BEF , #0DC9C8);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.subscribeBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
